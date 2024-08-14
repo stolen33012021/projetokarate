@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Inscrição - Aulas de Karatê</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <h2>Inscreva-se nas Aulas de Karatê</h2>
+    <form id="inscricaoForm">
+      <div class="form-group">
+        <label for="nome">Nome Completo</label>
+        <input type="text" id="nome" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+      </div>
+      <div class="form-group">
+        <label for="telefone">Telefone</label>
+        <input type="tel" id="telefone" required>
+      </div>
+      <div class="form-group">
+        <label for="idade">Idade</label>
+        <input type="number" id="idade" required>
+      </div>
+      <div class="form-group">
+        <label for="Localizaçao">Estado e Cidade</label>
+        <input type="tel" id="idade" placeholder="ex: Rio de Janeiro  - Rio de janeiro" required>
+      </div>
+      <div class="form-group">
+        <label for="nivel">Nível de Experiência</label>
+        <select id="nivel" required>
+          <option value="Iniciante">Iniciante</option>
+          <option value="Intermediário">Intermediário</option>
+          <option value="Avançado">Avançado</option>
+        </select>
+      </div>
+      <button type="submit" class="btn">Enviar e Gerar PDF</button>
+    </form>
+    <div class="descricao">
+      <h3>Sobre a Página de Inscrição</h3>
+      <p>
+        Esta página foi desenvolvida para facilitar o processo de inscrição nas aulas de Karatê oferecidas pelo projeto
+        social Terraço das Artes. Ao preencher o formulário, você estará se candidatando a participar de uma comunidade
+        dedicada ao desenvolvimento físico e mental através das artes marciais.
+      </p>
+      <p>
+        Valorizamos a sua privacidade e segurança. Todas as informações pessoais fornecidas neste formulário são
+        protegidas e utilizadas exclusivamente para fins de cadastro e comunicação referentes ao projeto. Nenhum dado
+        será compartilhado com terceiros sem o seu consentimento.
+      </p>
+    </div>
+  </div>
+
+  <section class="carrossel">
+    <h3>Acompanhe Nossas Aulas</h3>
+    <div class="slides">
+      <img src="TURMAKARATE.JPG" alt="Aula de Karatê 1">
+      <img src="KarateAtividade2.JPG" alt="">
+      <img src="KarateAtividade4.JPG" alt="">
+     
+      <img src="KarateAtividade.JPG" alt="Aula de Karatê 2">
+      <img
+        src="https://scontent.fqnv10-1.fna.fbcdn.net/v/t39.30808-6/363362062_262602909847103_5853658384078868957_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=2N3jf96m0oQQ7kNvgEGTVNY&_nc_ht=scontent.fqnv10-1.fna&oh=00_AYDy_Wmzm8g7i1aeBA671XkBDBikX2qiOvAnAHYytHOjCA&oe=66C1A57A"
+        alt="Aula de Karatê 3">
+    </div>
+    <div class="nav">
+      <button id="prev">‹</button>
+      <button id="next">›</button>
+    </div>
+  </section>
+
+  <section class="benefits">
+    <h3>Por Que Lutar Karatê?</h3>
+    <p>
+      O Karatê não é apenas uma arte marcial, mas também uma filosofia de vida que oferece inúmeros benefícios.
+      A prática regular desta arte proporciona um desenvolvimento físico e mental equilibrado, fortalecendo tanto o
+      corpo quanto a mente. Além disso, o Karatê melhora a coordenação motora, aumenta a flexibilidade, e promove a
+      disciplina e o autocontrole.
+    </p>
+    <p>
+      Para muitos, o Karatê é uma forma de melhorar a autoestima e a autoconfiança, ao mesmo tempo em que proporciona
+      uma excelente forma de autodefesa. Em um ambiente controlado e respeitoso, você aprenderá técnicas eficazes que
+      podem ser aplicadas em situações reais, enquanto desenvolve uma mentalidade de respeito e responsabilidade.
+    </p>
+    <div class="download-button">
+      <a href="https://gamma.app/docs/Introducao-ao-Karate-z2voky1secrv9p5" target="_blank">Baixe Nossa
+        Apostila de Karatê Shotokan</a>
+    </div>
+  </section>
+
+  <section class="relatos">
+    <h3>Relatos dos Alunos</h3>
+    <div class="relatos-container">
+      <div class="relato">
+        <img
+          src="https://scontent.fqnv10-1.fna.fbcdn.net/v/t39.30808-6/426648995_7169829643106505_8655163605999909722_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=URG-WUBiOS4Q7kNvgGlxAdC&_nc_ht=scontent.fqnv10-1.fna&oh=00_AYDvSdQuxNhpbnd4gLC0gsr-4SUmXOx0oQjaWSbcVHYX5w&oe=66C27DA3"
+          alt="Daniel Cunha">
+        <p><strong>Daniel Cunha:</strong> “As aulas de Karatê no Terraço das Artes mudaram minha vida. Não apenas
+          melhorei minha forma física, mas também ganhei disciplina e autoconfiança que aplico em todas as áreas da
+          minha vida.”</p>
+      </div>
+      <div class="relato">
+        <img
+          src="https://scontent.fqnv10-1.fna.fbcdn.net/v/t39.30808-6/250072208_4623522477763028_6604734919846422498_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=zHektZKTcXcQ7kNvgGe72FQ&_nc_ht=scontent.fqnv10-1.fna&oh=00_AYBkk0l-xE-zIiwgHRTs7mJn5jlLFAHleAZuYLWzeZmeMw&oe=66C29EAE"
+          alt="Adriana Alves">
+        <p><strong>Adriana Alves:</strong> “Comecei o Karatê por curiosidade e agora é uma paixão. As aulas me ensinaram
+          a importância da perseverança e me ajudaram a superar desafios que eu nunca imaginei que poderia enfrentar.”
+        </p>
+      </div>
+      <div class="relato">
+        <img
+          src="https://scontent.fqnv10-1.fna.fbcdn.net/v/t1.6435-9/117163957_294762048400699_1746601422168259185_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=L1RV4xCrhr8Q7kNvgGjWS0r&_nc_ht=scontent.fqnv10-1.fna&oh=00_AYCIEbkyGQDJxwSzyRZDBR6ffH8gGbMIukDgJAq-7n30_A&oe=66E41BA4"
+          alt="Gerson Moraes">
+        <p><strong>Gerson Moraes (Sensei):</strong> “É gratificante ver o progresso dos meus alunos. O Karatê não é
+          apenas sobre combate, mas sim sobre construir caráter. Cada aula é uma oportunidade de desenvolver habilidades
+          que vão além do dojo.”</p>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+  <script src="script.js"></script>
+ 
+
+</body>
+
+</html>
